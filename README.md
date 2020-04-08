@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is used to teach the introductory course on MVC architecture.
 
-Things you may want to cover:
+Want to test? Sure!
 
-* Ruby version
+# Install
 
-* System dependencies
+* Install dependencies
+`bundle install`
 
-* Configuration
+* Execute migrations
+`rails db:migrate`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Start local server
+`rails server`
