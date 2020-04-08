@@ -1,3 +1,4 @@
 tasks:
   - init: bundle install && bundle exec rails db:migrate
     command: bundle exec rails server
+    name: Start Server
