@@ -3,6 +3,12 @@
 class TasksController < ApplicationController
   before_action :set_task, only: %i[show edit update destroy]
 
+
+  # GET /time
+  def time
+    @current_time = Task.time
+  end
+
   # GET /tasks
   # GET /tasks.json
   def index
