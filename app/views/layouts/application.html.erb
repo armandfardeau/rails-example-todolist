@@ -10,6 +10,12 @@
   </head>
 
   <body>
+  <nav>
+    <ul>
+        <li><%= link_to "Index", tasks_path %></li>
+        <li><%= link_to "Time", time_path %></li>
+    </ul>
+  </nav>
     <%= yield %>
   </body>
 </html>
